@@ -1,0 +1,14 @@
+# Drawings and anything produced from them stay local: they belong to whoever
+# supplied them. Tests build their own synthetic DXF.
+*.dwg
+*.dxf
+*.pdf
+*.bak
+out/
+review/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+.env

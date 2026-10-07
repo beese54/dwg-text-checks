@@ -1,0 +1,20 @@
+{
+ "source": "Review comments on drawing XYZ-001 Rev 1 (example)",
+ "chainage": {
+  "interval_m": 10,
+  "runs": {
+   "C": "main pipeline (comment 1)",
+   "D": "branch pipeline (comment 7)"
+  }
+ },
+ "coordinates": {
+  "runs": {
+   "C": "main pipeline (comment 3)",
+   "D": "branch pipeline (comment 8)"
+  }
+ },
+ "abandonment": [
+  {"pipe": "PW450", "note": "comment 2"},
+  {"pipe": "PW150 offtake", "note": "comment 6"}
+ ]
+}

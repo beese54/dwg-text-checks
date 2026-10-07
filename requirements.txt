@@ -1,0 +1,7 @@
+# Runtime. The package itself: pip install -e ".[dev]"
+ezdxf>=1.4
+# Tests
+pytest>=8.0
+# Not pip-installable -- a DWG converter, needed only for .dwg input
+# (.dxf needs nothing). Install one: see docs/SETUP.md.
+#   LibreDWG (dwg2dxf on PATH)  or  ODA File Converter (ODA_FC_PATH)
